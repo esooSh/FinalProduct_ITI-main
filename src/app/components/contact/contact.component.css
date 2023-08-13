@@ -1,23 +1,48 @@
-body {padding-top:20px;}
-.container{
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+body {
+  padding-top: 20px;
+}
+#con {
+  font-family: "Pacifico", cursive !important;
+}
+.container {
   width: 90%;
 }
-label{
+
+label {
   font-size: large;
-  margin-bottom: 5px ;
+  margin-bottom: 5px;
+  color: #e74c3c; /* Red color for labels */
+  font-family: "Pacifico", cursive !important;
 }
-input{
+
+input {
   margin-bottom: 15px;
   padding: 10px;
 }
-textarea{
+
+textarea {
   margin-bottom: 15px;
+  border-color: #e74c3c; /* Red border color for textarea */
 }
-.btn{
-  background-color: #4ba9e9;
-  border: 1px solid #4ba9e9;
+
+.btn {
+  background-color: #e74c3c; /* Red background color for button */
+  border: 1px solid #e74c3c; /* Red border color for button */
+  color: white; /* Text color for button */
 }
-.btn:hover{
-  background-color: whitesmoke;
-  color: #4ba9e9;
+
+.btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  border-color: #c0392b; /* Darker red border on hover */
+  color: white; /* Text color on hover */
+}
+
+form {
+  margin-block: 1.2rem;
+  background: rgba(255, 255, 255, 0.2); /* Glass-like background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,43 +11,50 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(#4ba9e9 0,#4aa9e8 50%,#fff 50%,#fff 100%); */
+  /* background: linear-gradient(#e57373 0,#d32f2f 50%,#fff 50%,#fff 100%); */
   min-height: 100vh;
 }
+
 input[type="text"] {
   width: 50%;
   margin: 10px 20px;
   margin-left: 20%;
   padding: 10px;
 }
+
 .btn {
   color: #f6f6f6;
-  background-color: #4ba9e9;
-  border: 1px solid #4ba9e9;
+  background-color: #e57373;
+  border: 1px solid #e57373;
   padding: 12px 30px;
   cursor: pointer;
   border-radius: 10px;
 }
+
 .btn3 {
   margin-top: 10px;
-  color: #4ba9e9;
+  color: #e57373;
   background-color: #fdfdfd;
-  border: 1px solid #4ba9e9;
+  border: 1px solid #e57373;
   padding: 12px 30px;
   cursor: pointer;
   border-radius: 10px;
 }
+
 .btn3:hover {
-  background-color: rgba(4, 25, 39, 0.4);
+  background-color: rgba(36, 37, 42, 0.4);
   color: #fff;
 }
+
 .btn1 {
   margin-right: 15px;
 }
+
 .btn:hover {
-  color: #4ba9e9;
+  color: #e57373;
   background-color: #f6f6f6;
 }
+
 .product {
   margin-top: 80px;
   display: flex;
@@ -55,6 +63,7 @@ input[type="text"] {
   flex-wrap: wrap;
   /* width: calc(100% / 3 - 50px); */
 }
+
 .cards {
   margin-top: 20px;
   position: relative;
@@ -66,9 +75,11 @@ input[type="text"] {
   overflow: hidden;
   transition: 0.5s ease-in-out;
 }
+
 .cards:hover {
   width: 650px;
 }
+
 .cards .imgBx {
   position: relative;
   max-width: 300px;
@@ -81,28 +92,33 @@ input[type="text"] {
   background-color: #fff;
   overflow: hidden;
 }
+
 .cards .imgBx img {
   max-width: 250px;
   transition: 0.5s ease-in-out;
 }
+
 /* .cards:hover .imgBx img {
-	transform: rotate(-35deg) translateX(-20px);
+  transform: rotate(-35deg) translateX(-20px);
 } */
+
 .cards .details {
   position: absolute;
   left: 0;
   width: 350px;
   height: 100%;
-  background: #4ba9e9;
+  background: #e57373;
   display: flex;
   justify-content: center;
   padding: 20px;
   flex-direction: column;
   transition: 0.5s ease-in-out;
 }
+
 .cards:hover .details {
   left: 300px;
 }
+
 .cards .details::before {
   content: "";
   position: absolute;
@@ -114,6 +130,7 @@ input[type="text"] {
   border-left: 10px solid #fff;
   z-index: 1;
 }
+
 .cards .details h3 {
   color: #fff;
   text-transform: uppercase;
@@ -121,12 +138,14 @@ input[type="text"] {
   font-size: 1.5em;
   line-height: 1em;
 }
+
 .cards .details h3 span {
   font-size: 0.65em;
   font-weight: 300;
   opacity: 0.85;
   text-transform: none;
 }
+
 .cards .details h4 {
   color: #fff;
   text-transform: uppercase;
@@ -136,15 +155,18 @@ input[type="text"] {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 p {
   color: #fff;
   font-size: 0.8em;
   opacity: 0.85;
 }
+
 .size {
   display: flex;
   gap: 10px;
 }
+
 .size li {
   list-style: none;
   color: #fff;
@@ -159,11 +181,13 @@ p {
   font-weight: 500;
   opacity: 0.5;
 }
+
 .size li:hover {
   background: #fff;
-  color: #4ba9e9;
+  color: #e57373;
   opacity: 1;
 }
+
 .group {
   position: relative;
   display: flex;
@@ -171,18 +195,22 @@ p {
   margin-top: 20px;
   align-items: center;
 }
+
 .cards .details h2 {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2em;
 }
+
 .cards .details h2 sup {
   font-weight: 300;
 }
+
 .cards .details h2 small {
   font-size: 0.75em;
 }
+
 .cards .details a {
   display: inline-flex;
   padding: 10px 25px;
@@ -191,50 +219,61 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  color: #4ba9e9;
+  color: #e57373;
 }
+
 .h5 {
   margin-top: 20px;
   color: #fff;
 }
+
 .red {
   color: red;
 }
+
 .hidden {
   display: none;
 }
+
 body {
   padding-top: 20px;
 }
+
 .container {
   width: 90%;
 }
+
 form {
-  border: 1px solid #4ba9e9;
+  border: 1px solid #e57373;
   border-radius: 12px;
   padding: 30px 20px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 label {
   font-size: large;
   margin-bottom: 5px;
 }
+
 input {
   margin-bottom: 15px;
   padding: 10px;
 }
+
 .btn5 {
-  background-color: #4ba9e9;
-  border: 1px solid #4ba9e9;
+  background-color: #e57373;
+  border: 1px solid #e57373;
   margin-top: 20px;
   margin-left: 45%;
   padding: 15px 45px;
 }
+
 .btn5:hover {
   background-color: whitesmoke;
-  color: #4ba9e9;
+  color: #e57373;
 }
+
 @media only screen and (max-width: 667px) {
   .product {
     width: 100%;
@@ -258,6 +297,7 @@ input {
     left: 188px;
   }
 }
+
 @media only screen and (max-width: 557px) {
   .product {
     width: 100%;
@@ -281,6 +321,7 @@ input {
     left: 140px;
   }
 }
+
 @media only screen and (max-width: 499px) {
   .product {
     width: 100%;
@@ -304,6 +345,7 @@ input {
     left: 105px;
   }
 }
+
 @media only screen and (max-width: 442px) {
   .product {
     width: 100%;

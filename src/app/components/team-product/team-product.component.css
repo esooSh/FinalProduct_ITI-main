@@ -1,50 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.color span{
-  color: #4ba9e9;
+
+.color span {
+  color: #e57373;
 }
-.btn3{
+
+.btn3 {
   margin-top: 20px;
-  color:#4ba9e9;
+  color: #e57373;
   background-color: #fdfdfd;
-  border: 1px solid #4ba9e9;
+  border: 1px solid #e57373;
   padding: 12px 30px;
   cursor: pointer;
   border-radius: 10px;
 }
-.btn3:hover{
-  background-color: rgba(4, 25, 39, 0.4);
+
+.btn3:hover {
+  background-color: rgba(36, 37, 42, 0.4);
   color: #fff;
 }
-.product{
-	margin-top:50px;
+
+.product {
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(450px, 1fr));
-    /* grid-gap: 20px; */
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  /* grid-gap: 20px; */
   overflow: hidden;
 }
-@media (max-width:518px) {
-  .card{
+
+@media (max-width: 518px) {
+  .card {
     width: 350px !important;
   }
-
 }
-@media (max-width:425px) {
-  .card{
+
+@media (max-width: 425px) {
+  .card {
     width: 250px !important;
   }
-
 }
-
-
-
-
-
-
-
