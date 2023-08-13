@@ -1,101 +1,111 @@
-header{
-  background-color: #4ba9e9;
+:host {
+  --primary-color: #e74c3c;
+  --secondary-color: #c0392b;
+  --text-color: #fff;
+  --menu-background-color: #e74c3c;
+}
+
+header {
+  background-color: var(--primary-color);
   padding: 20px 0;
 }
-.active{
-  background-color: #024b89;
-  border: 1px solid #024b89;
+
+.active {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
-.logo{
+
+.logo {
   width: 90px;
   cursor: pointer;
 }
-/* .menu{
 
-} */
-.menu ul{
+.menu ul {
   padding: 0;
   margin: 0;
 }
-.menu ul li{
-  list-style-type:none;
-  color: white;
+
+.menu ul li {
+  list-style-type: none;
+  color: var(--text-color);
   display: inline-block;
   font-size: 18px;
   margin-left: 10px;
 }
-.menu ul li a{
-  color: white;
+
+.menu ul li a {
+  color: var(--text-color);
   text-decoration: none;
   padding: 8px 18px;
   border-radius: 10px;
 }
 
-
-@media only screen and (max-width: 1209px)
-{
-  .menu{
+@media only screen and (max-width: 1209px) {
+  .menu {
     position: absolute;
     right: 80px;
-    /* top: 62px; */
-    background-color: #4ba9e9;
+    background-color: var(--primary-color);
   }
-  .menu ul li{
+
+  .menu ul li {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 999px)
-{
-  .menu{
+
+@media only screen and (max-width: 999px) {
+  .menu {
     position: fixed;
     z-index: 100;
     right: -300px;
     top: 60px;
     width: 300px;
     height: 100%;
-    background-color: #4ba9e9;
+    background-color: var(--menu-background-color);
   }
-  .menu ul li{
+
+  .menu ul li {
     margin-left: 0;
     display: block;
     text-align: center;
     margin-top: 20px;
   }
-  .menu ul li a{
+
+  .menu ul li a {
     padding: 15px 80px;
   }
-  .menu-icon{
+
+  .menu-icon {
     display: inline-block;
     position: relative;
     right: 20px;
     top: 5px;
     cursor: pointer;
   }
-  .menu-icon span{
+
+  .menu-icon span {
     width: 35px;
     height: 3px;
     display: block;
-    background-color: white;
+    background-color: var(--text-color);
   }
-  .menu-icon span:nth-child(2){
+
+  .menu-icon span:nth-child(2) {
     margin: 5px 0;
   }
-  .menuClass{
+
+  .menuClass {
     right: 0;
     transition: 0.5s ease-in-out;
   }
 }
 
-
-@media only screen and (max-width: 768px)
-{
-  .menu-icon{
+@media only screen and (max-width: 768px) {
+  .menu-icon {
     display: inline-block;
     position: relative;
-    right: 0px;
+    right: 0;
     left: 80%;
     top: 5px;
     cursor: pointer;
   }
 }
-
