@@ -7,7 +7,36 @@
   top: 55%;
   left: 30%;
   font-size: 60px;
-  color: #35c2d4
+  color: #35c2d4;
+}
+
+.colorlib-about h2 {
+  color: #db8e3d;
+}
+.colorlib-about p {
+  color: #db8e3d;
+  font-size: large;
+}
+.skew-div {
+  background-color: #db8e3d;
+  background-color: #e5e7e8;
+
+  position: relative;
+  z-index: 1;
+}
+
+.skew-div:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 30%; /* Adjust the width as needed */
+  height: 8%;
+  background-color: #e5e7e8;
+  background-color: #e1ba90;
+
+  transform: skew(15deg, 0);
+  z-index: -1;
 }
 
 /* .colorlib-video:hover .overlay {
