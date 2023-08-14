@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300&display=swap');
-.hero{
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300&display=swap");
+.hero {
   height: 100vh;
   background-attachment: fixed;
   padding-top: 100px;
@@ -10,14 +10,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-attachment: #F1F3F4;
+  background-attachment: #f1f3f4;
 }
-.hero-title{
+.hero-title {
   font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
   font-weight: 300;
   line-height: 75px;
-  color: #4ba9e9;
+  color: #275649;
   margin-bottom: 10px;
 }
 .hero-title > strong {
@@ -25,30 +25,30 @@
   font-weight: 700;
   color: black;
 }
-.hero-text{
+.hero-text {
   line-height: 1.8;
   max-width: 46ch;
   margin-bottom: 25px;
   color: rgb(69, 69, 69);
 }
-.btn{
+.btn {
   padding: 10px 30px;
-  background-color: #4ba9e9;
-  border: 1px solid #4ba9e9;
+  background-color: #275649;
+  border: 1px solid #275649;
   border-radius: 10px;
   color: white;
 }
-.btn:hover{
+.btn:hover {
   background-color: aliceblue;
   color: #4ba9e9;
 }
 
-@media (max-width:453px) {
-  .hero{
+@media (max-width: 453px) {
+  .hero {
     height: 100%;
     padding-top: 0;
   }
-  .hero-title{
+  .hero-title {
     line-height: 50px;
   }
   .hero-title > strong {

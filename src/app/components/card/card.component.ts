@@ -17,7 +17,7 @@ export class CardComponent {
   products: product[] = [
     {
       id: 1,
-      imageSrc: './assets/image/6.webp',
+      imageSrc: './assets/image/imgs/1.jpeg',
       name: 'Air Jordan 1 Low',
       model: "Men's Shoe",
       describtion:
@@ -27,7 +27,7 @@ export class CardComponent {
     },
     {
       id: 2,
-      imageSrc: './assets/image/8.webp',
+      imageSrc: './assets/image/imgs/2.jpeg',
       name: 'Air Jordan 1 Mid',
       model: "Men's Shoes",
       describtion:
@@ -37,7 +37,7 @@ export class CardComponent {
     },
     {
       id: 3,
-      imageSrc: './assets/image/4.webp',
+      imageSrc: './assets/image/imgs/3.jpeg',
       name: 'Air Jordan 2 Low',
       model: "Women's Shoes",
       describtion:
@@ -47,7 +47,7 @@ export class CardComponent {
     },
     {
       id: 4,
-      imageSrc: './assets/image/7.webp',
+      imageSrc: './assets/image/imgs/4.jpeg',
       name: 'Air Jordan 1 Low',
       model: "Men's Shoe",
       describtion:
@@ -57,7 +57,7 @@ export class CardComponent {
     },
     {
       id: 5,
-      imageSrc: './assets/image/9.webp',
+      imageSrc: './assets/image/imgs/5.jpeg',
       name: 'Air Jordan 3 Mid',
       model: "Women's Shoes",
       describtion:
@@ -67,7 +67,77 @@ export class CardComponent {
     },
     {
       id: 6,
-      imageSrc: './assets/image/10.webp',
+      imageSrc: './assets/image/imgs/6.jpeg',
+      name: "Nike Air Force 1 '07",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 7,
+      imageSrc: './assets/image/imgs/7.jpeg',
+      name: "Nike Air Force 1 '07",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 8,
+      imageSrc: './assets/image/imgs/8.jpeg',
+      name: "Nike Air Force 1 '07",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 9,
+      imageSrc: './assets/image/imgs/9.jpeg',
+      name: "Nike Air Force 1 '09",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 10,
+      imageSrc: './assets/image/imgs/10.jpeg',
+      name: "Nike Air Force 1 '07",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 11,
+      imageSrc: './assets/image/imgs/11.jpeg',
+      name: "Nike Air Force 1 '07",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 12,
+      imageSrc: './assets/image/imgs/12.jpeg',
+      name: "Nike Air Force 1 '07",
+      model: "Men's Shoe",
+      describtion:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iusto.',
+      price: 110,
+      quantity: 0,
+    },
+    {
+      id: 13,
+      imageSrc: './assets/image/imgs/13.jpeg',
       name: "Nike Air Force 1 '07",
       model: "Men's Shoe",
       describtion:
