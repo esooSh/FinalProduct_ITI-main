@@ -1,15 +1,20 @@
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* Input Styles */
 input[type="text"] {
   width: 50%;
   margin: 10px 20px;
   margin-left: 20%;
   padding: 10px;
 }
+
+/* Button Styles */
 .btn {
   color: #f6f6f6;
   background-color: #e57373;
@@ -17,7 +22,15 @@ input[type="text"] {
   padding: 12px 30px;
   cursor: pointer;
   border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
+
+.btn:hover {
+  background-color: #f6f6f6;
+  color: #4ba9e9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 .btn3 {
   margin-top: 10px;
   color: #e57373;
@@ -26,30 +39,29 @@ input[type="text"] {
   padding: 12px 30px;
   cursor: pointer;
   border-radius: 10px;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s, cursor 0.3s;
 }
+
 .btn3:disabled {
   color: #ef735ef9;
   border: 1px solid #787879;
   background-color: #ccc;
   cursor: none;
 }
+
 .btn3:disabled:hover {
   color: #0e67a7;
   border: 1px solid #787879;
   background-color: #ccc;
   cursor: none;
 }
+
 .btn3:hover {
   background-color: rgba(4, 25, 39, 0.4);
   color: #fff;
 }
-.btn1 {
-  margin-right: 15px;
-}
-.btn:hover {
-  color: #4ba9e9;
-  background-color: #f6f6f6;
-}
+
+/* Product Section Styles */
 .product {
   margin-top: 80px;
   display: flex;
@@ -57,6 +69,7 @@ input[type="text"] {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .cards {
   margin-top: 20px;
   position: relative;
@@ -65,11 +78,13 @@ input[type="text"] {
   display: flex;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
 }
+
 .cards:hover {
   width: 650px;
 }
+
 .cards .imgBx {
   position: relative;
   max-width: 300px;
@@ -80,14 +95,18 @@ input[type="text"] {
   z-index: 10;
   background-color: #f6f6f6;
   overflow: hidden;
+  transition: background-color 0.3s;
 }
+
 .cards .imgBx img {
   max-width: 250px;
-  transition: 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
+
 .cards:hover .imgBx img {
   transform: rotate(-35deg) translateX(-20px);
 }
+
 .cards .details {
   position: absolute;
   left: 0;
@@ -98,11 +117,13 @@ input[type="text"] {
   justify-content: center;
   padding: 20px;
   flex-direction: column;
-  transition: 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
 }
+
 .cards:hover .details {
   left: 300px;
 }
+
 .cards .details::before {
   content: "";
   position: absolute;
@@ -114,94 +135,31 @@ input[type="text"] {
   border-left: 10px solid #fff;
   z-index: 1;
 }
-.cards .details h3 {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.5em;
-  line-height: 1em;
-}
-.cards .details h3 span {
-  font-size: 0.65em;
-  font-weight: 300;
-  opacity: 0.85;
-  text-transform: none;
-}
-.cards .details h4 {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 0.9em;
-  line-height: 1em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-p {
-  color: #fff;
-  font-size: 0.8em;
-  opacity: 0.85;
-}
-.group {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  align-items: center;
-}
+
+.cards .details h3,
+.cards .details h4,
+p,
+.group,
 .cards .details h2 {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 2em;
+  transition: color 0.3s, text-shadow 0.3s;
 }
-.cards .details h2 sup {
-  font-weight: 300;
-}
-.cards .details h2 small {
-  font-size: 0.75em;
-}
-.cards .details a {
-  display: inline-flex;
-  padding: 10px 25px;
-  background: #fff;
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #4ba9e9;
-}
-.h5 {
+
+/* Availability Styles */
+.product-availability {
   margin-top: 20px;
   color: #fff;
+  transition: color 0.3s;
 }
+
 .red {
   color: red;
 }
+
 .hidden {
   display: none;
 }
-body {
-  padding-top: 20px;
-}
-.container {
-  width: 90%;
-}
-form {
-  border: 1px solid #e57373;
-  border-radius: 12px;
-  padding: 30px 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-label {
-  font-size: large;
-  margin-bottom: 5px;
-}
-input {
-  margin-bottom: 15px;
-  padding: 10px;
-}
-/* Form styles */
+
+/* Form Styles */
 form {
   border: 1px solid #e57373;
   border-radius: 12px;
@@ -211,6 +169,7 @@ form {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   box-sizing: border-box;
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
 label {
@@ -235,24 +194,7 @@ input:focus {
   box-shadow: 0 0 8px rgba(235, 187, 187, 0.6);
 }
 
-/* Button styles */
-.btn {
-  color: #f6f6f6;
-  background-color: #e57373;
-  border: 1px solid #e57373;
-  padding: 12px 30px;
-  cursor: pointer;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
-    box-shadow 0.3s ease-in-out;
-}
-
-.btn:hover {
-  background-color: #f6f6f6;
-  color: #4ba9e9;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+/* Responsive Styles */
 @media only screen and (max-width: 880px) {
   .btn1 {
     margin-left: 260px;
@@ -286,20 +228,21 @@ input:focus {
     left: 188px;
   }
 }
+
 @media only screen and (max-width: 557px) {
   .product {
     width: 100%;
-
-    .btn1 {
-      margin-left: 140px;
-    }
   }
+
+  .btn1 {
+    margin-left: 140px;
+  }
+
   .cards {
     width: 400px;
   }
   .cards:hover {
     width: 450px;
-    /* z-index: -1; */
   }
   .cards .imgBx {
     width: 150px;
@@ -315,6 +258,7 @@ input:focus {
     left: 140px;
   }
 }
+
 @media only screen and (max-width: 499px) {
   .product {
     width: 100%;
@@ -324,7 +268,6 @@ input:focus {
   }
   .cards:hover {
     width: 440px;
-    /* z-index: -1; */
   }
   .cards .imgBx {
     width: 120px;
@@ -340,6 +283,7 @@ input:focus {
     left: 105px;
   }
 }
+
 @media only screen and (max-width: 442px) {
   .product {
     width: 100%;
@@ -350,7 +294,6 @@ input:focus {
   }
   .cards:hover {
     width: 320px;
-    /* z-index: -1; */
   }
   .cards .imgBx {
     width: 120px;
